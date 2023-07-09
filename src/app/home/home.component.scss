@@ -81,14 +81,17 @@ justify-content: center;
   // color: white;
 
   .images{
-
     display: flex;
     justify-content: space-between;
+    a{
+      margin: 0;
+      padding: 15px;
+    }
     p{
       font-size: 2rem;
     }
     img{
-      width: 20%;
+      width: 90%;
       border-radius: 500px;
       border: 2px solid blueviolet;
       padding: 3px;
@@ -256,6 +259,11 @@ padding: 10px;
   h4{
     margin-bottom: 0;
     font-size: 1.3rem;
+  }
+  .crft-sec{
+    a{
+      text-decoration: none;
+    }
   }
   span{
     font-size: 1rem;
