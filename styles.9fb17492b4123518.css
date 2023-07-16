@@ -1,4 +1,4 @@
-body{margin:0;padding:0;background-color:#fff;top:0;font-family:sans-serif}/*!
+body{margin:0;padding:0;background-color:#fff;top:0;font-family:sans-serif}@media screen and (max-width: 400px){body{margin:0;padding:0}}@media screen and (min-width: 1240px){body{margin:auto;align-items:center;justify-content:center}}/*!
  * Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2023 Fonticons, Inc.
