@@ -55,7 +55,11 @@
             },
             "development": {
               "buildOptimizer": false,
-              "optimization": false,
+              "optimization":
+
+              {
+                "fonts": false
+              } ,
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
