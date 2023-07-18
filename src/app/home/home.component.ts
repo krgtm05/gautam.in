@@ -1,4 +1,4 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -6,7 +6,14 @@ import { Component, HostListener } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  constructor(){}
 
 
+  // @ViewChild('bottom')
+  // public bottom!: ElementRef;
+
+  // public bootomstruc():void {
+  //     setImmediate(() => {
+  //         this.bottom.nativeElement.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'start' });
+  //     });
+  // }
 }
