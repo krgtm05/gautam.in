@@ -8,26 +8,6 @@ nav {
   z-index: 999;
   width: 100%;
 
-  .hidden {
-    position: relative;
-    font-size: 10px;
-    font-weight: 200;
-    height: 1px;
-    width: 100px;
-    left: 10px;
-    top: 5px;
-    // background: gray;
-    display: none;
-  }
-
-  div:hover {
-    .hidden {
-      display: block;
-
-
-    }
-  }
-
   // margin-bottom: 100px;
   h3 {
     font-size: 1.2rem;
@@ -110,26 +90,6 @@ nav {
 
       p {
         font-size: 1.2rem;
-      }
-
-      .hidden {
-        position: relative;
-        font-size: 20px;
-        font-weight: 200;
-        height: 1px;
-        width: 100px;
-        left: 10px;
-        top: 5px;
-        // background: gray;
-        display: none;
-      }
-
-      div:hover {
-        .hidden {
-          display: block;
-
-
-        }
       }
     }
 
