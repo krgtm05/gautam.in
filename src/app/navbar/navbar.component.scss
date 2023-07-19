@@ -7,12 +7,18 @@ nav {
   position: fixed;
   z-index: 999;
   width: 100%;
-
-  // margin-bottom: 100px;
+div{
+  display: flex;
+    justify-content: center;
+    align-items: center;
   h3 {
     font-size: 1.2rem;
     margin: 0;
+
   }
+}
+  // margin-bottom: 100px;
+
 
   .nav-links {
     display: flex;
@@ -34,9 +40,9 @@ nav {
       position: absolute;
       background: blueviolet;
       bottom: 0;
-      height: 6px;
+      height: 5px;
       content: '';
-      width: 6px;
+      width: 5px;
       left: 60%;
     }
 
@@ -83,14 +89,21 @@ nav {
       padding: 15px;
 
       // border-bottom: 1px solid blueviolet;
-      h3 {
-        font-size: 1.8rem;
+      div{
+        display: flex;
+          justify-content: center;
+          align-items: center;
+        h3 {
+          font-size: 2.5rem;
+          margin: 0;
 
+        }
       }
-
-      p {
-        font-size: 1.2rem;
-      }
+          .nav-links{
+            p{
+              font-size: 18px;
+            }
+          }
     }
 
     // justify-content: center;
